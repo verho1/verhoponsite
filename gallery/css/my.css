@@ -1,0 +1,97 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: gray;
+}
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px darkred;
+}
+.photo{
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px)/16 * 9);
+	margin: 10px;
+	background-color: deepskyblue;
+}
+h1{
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+}
+.photo:hover{
+	transform: rotate(10deg) scale(1.5);
+}
+.photo1{
+	background-image: url(../img111/img44.jpg);
+	background-position: center;
+	background-size: cover; 
+}
+.photo2{
+	background-image: url(../img111/22.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.photo3{
+	background-image: url(../img111/img33.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.photo4{
+	background-image: url(../img111/img2.gif);
+	background-position: center;
+	background-size: cover;
+}.photo5{
+	background-image: url(../img111/img11.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.photo6{
+	background-image: url(../img111/img55.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.photo{
+	border: 3px solid lightgray;
+	border-radius: 100px;
+}
+td{
+	border: 30px solid orangered;
+	font-size: 30px;
+	padding: 20px;
+	color: black;
+	text-align: center;
+	border-radius: 100px;
+}
+table, .spi{
+	width: 70%;
+    margin: auto;
+}
+.spi{
+	font-size: 40px;
+	color: red;
+}
+li{
+	border: 3px;
+}
+.menu a{
+	text-decoration: none;
+	border: 1px solid orangered;
+	padding: 7px;
+	border-radius: 30px;
+}
+.menu{
+    margin-bottom: 20px;
+}
+.textcatalog{
+	color: deepskyblue;
+	padding: 10px;
+}
